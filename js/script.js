@@ -66,8 +66,7 @@ function initiateVars() {
 //----------------------------------------------------------------------------
 // Creates an action listener and if the Reset button is clicked then
 // the variables are reset to "clear".
-var event = document.getElementById('reset').addEventListener('click', resetVars);
-event.preventDefault();
+document.getElementById('reset').addEventListener('click', resetVars).preventDefault();
   
 function resetVars(){
   document.getElementById("greeting").innerHTML = "clear";
@@ -79,4 +78,4 @@ function resetVars(){
 }
 //----------------------------------------------------------------------------
 
-})
+});
