@@ -1,4 +1,5 @@
 $(document).ready(function (){
+  console.log("Ready");
 $("#content").hide().fadeIn(3000);
   
 // ----------------------------------------------------------------------------
