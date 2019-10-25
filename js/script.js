@@ -1,5 +1,5 @@
-$(document).ready(function () {
-$('#content').hide().fadeIn(3000);
+$(document).ready(function(){
+$("#content").hide().fadeIn(3000);
   
 // ----------------------------------------------------------------------------
 // Create variables to hold details about the message and not initialized
