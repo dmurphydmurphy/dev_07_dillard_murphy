@@ -1,3 +1,6 @@
+$(document).ready(function () {
+$('#content').hide().fadeIn(3000);
+  
 // ----------------------------------------------------------------------------
 // Create variables to hold details about the message and not initialized
 var greeting = '[not initialized]' ; 
@@ -72,3 +75,6 @@ function resetVars(){
   document.getElementById("grandTotal").innerHTML = "clear";
   document.getElementById("userSign").innerHTML = "clear";
 }
+//----------------------------------------------------------------------------
+
+})
