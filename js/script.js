@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function (){
 $("#content").hide().fadeIn(3000);
   
 // ----------------------------------------------------------------------------
